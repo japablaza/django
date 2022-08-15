@@ -6,3 +6,4 @@
 - Intro
 - About me
 - What is next
+- Templates
