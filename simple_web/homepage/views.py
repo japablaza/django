@@ -1,10 +1,9 @@
-from http.client import HTTPResponse
 from django.shortcuts import render
 from django.http import HttpResponse
 import time
 
 def inicio (request):
-    return HttpResponse("Bienvenido al Sitio Web!")
+    return render(request, "simple_web/welcome.html")
 
 def sobremi (request):
     return HttpResponse("This page is about me")
