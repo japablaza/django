@@ -18,9 +18,12 @@ from django.urls import path
 
 from homepage.views import inicio, lahora, sobremi
 
+from salas.views import more_info
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('', inicio),
     path('about', sobremi),
-    path('date', lahora)
+    path('date', lahora),
+    path('reunion/<int:id>', more_info),
 ]
