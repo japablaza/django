@@ -38,3 +38,6 @@ web01/web01/__pycache__/__init__.cpython-39.pyc
 web01/web01/__pycache__/settings.cpython-39.pyc
 web01/web01/__pycache__/urls.cpython-39.pyc
 web01/web01/__pycache__/wsgi.cpython-39.pyc
+web01/web01/__init__.py
+web01/home/__pycache__/views.cpython-39.pyc
+web01/home/__pycache__/__init__.cpython-39.pyc
