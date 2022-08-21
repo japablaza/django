@@ -26,3 +26,15 @@ simple_web/salas/__pycache__/admin.cpython-39.pyc
 simple_web/salas/__pycache__/models.cpython-39.pyc
 simple_web/simple_web/__init__.py
 simple_web/salas/__pycache__/views.cpython-39.pyc
+simple_web/db.sqlite3
+simple_web/simple_web/asgi.py
+simple_web/simple_web/wsgi.py
+web01/db.sqlite3
+web01/manage.py
+web01/home/__init__.py
+web01/web01/asgi.py
+web01/web01/wsgi.py
+web01/web01/__pycache__/__init__.cpython-39.pyc
+web01/web01/__pycache__/settings.cpython-39.pyc
+web01/web01/__pycache__/urls.cpython-39.pyc
+web01/web01/__pycache__/wsgi.cpython-39.pyc
