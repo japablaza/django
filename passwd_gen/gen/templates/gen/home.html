@@ -1,11 +1,16 @@
 <h1>Generador de Clave</h1>
 
 <form action="{% url 'passwd' %}">
-    <select name="lenght">
-        <option value="6">Numero 6</option>
-        <option value="7">Numero 7</option>
-        <option value="8" selected="selected">Numero 8</option>
-        <option value="9">numero 9</option>
+    <select name="largo">
+        <option value="6">6 letras</option>
+        <option value="7">7 letras</option>
+        <option value="8">8 letras</option>
+        <option value="9">9 letras</option>
+        <option value="10">10 letras</option>
+        <option value="11">11 letras</option>
+        <option value="12">12 letras</option>
+        <option value="13" selected=""selected>13 letras</option>
+        <option value="14">14 letras</option>
     </select>
     <br>
     <input type="checkbox" name="mayuscula"> Mayuscula
@@ -17,3 +22,5 @@
 
     <input type="submit" value="Crear Clave">
 </form>
+
+<a href="{% url 'about' %}">About the Author</a>
