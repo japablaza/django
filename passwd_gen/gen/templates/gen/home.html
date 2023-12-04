@@ -1,3 +1,19 @@
-<h2>This is the real HOME</h2>
+<h1>Generador de Clave</h1>
 
-{{ tag }}
+<form action="{% url 'passwd' %}">
+    <select name="lenght">
+        <option value="6">Numero 6</option>
+        <option value="7">Numero 7</option>
+        <option value="8" selected="selected">Numero 8</option>
+        <option value="9">numero 9</option>
+    </select>
+    <br>
+    <input type="checkbox" name="mayuscula"> Mayuscula
+    <br>
+    <input type="checkbox" name="numeros"> Numeros 
+    <br>
+    <input type="checkbox" name="especiales"> Letras especiales 
+    <br>
+
+    <input type="submit" value="Crear Clave">
+</form>
