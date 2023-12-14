@@ -1,0 +1,13 @@
+<h1>Pepe's News</h1>
+
+{% for new in news %}
+
+<h2>{{ new.titulo }}</h2>
+<p>{{ new.texto }}</p>
+<img src="{{ new.image.url }}" alt="Primera Foto" width="300" height="200">
+
+{% if new.url %}
+<a href="{{ new.url }}">Link</a>
+{% endif %}
+
+{% endfor %}
