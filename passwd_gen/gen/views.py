@@ -14,6 +14,9 @@ def about(request):
 def page1(request):
     return HttpResponse('Simpe page')
 
+def secret(request):
+    return HttpResponse('Secret')
+
 def passwd(request):
 
     clave = ''
