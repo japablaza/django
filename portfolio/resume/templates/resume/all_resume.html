@@ -1,1 +1,9 @@
 Hola Resume
+<br>
+{% for resume in resumes %}
+
+<h2>{{ resume.title}}</h2>
+<h5> {{ resume.date}}</h5>
+<p>{{ resume.description }}</p>
+
+{% endfor %}
